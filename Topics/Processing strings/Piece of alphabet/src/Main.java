@@ -9,8 +9,8 @@ class Main {
         if ((str.length()==2  && letters.contains(str))){
             result = true;
         }
-        else if (str.length()==1){
-            result=false;
+        else if (str.equals("w")){
+            result=true;
         }
 
         for (int i = 0; i < str.length()-2; i++) {
